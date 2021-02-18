@@ -5,6 +5,10 @@
   padding: 20px 10px;
 }
 
+.footer > p {
+  margin-left : 20px;
+}
+
 .footer > ul {
   list-style-type: none;
   display:flex;
