@@ -1,0 +1,22 @@
+.header {
+  background-color: transparent;
+  margin: 0;
+  padding: 1px;
+   position: fixed;
+  top: 0;
+  width: 100%;
+  font-weight: bold;
+}
+.header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header li {
+  padding: 10px;
+}
+
+.header a {
+  color: black;
+}

@@ -1,0 +1,40 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;1,700&display=swap');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url('components/banner.css');
+@import url('components/card.css');
+@import url('components/footer.css');
+@import url('components/header.css');
+/* Utilities */
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  max-width: 100%
+  scroll-behavior: smooth;
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+}
+
+.btn-fixed{
+  position: fixed;
+  top: 70%;
+  left: 96%;
+  writing-mode: vertical-rl;
+}
+h1, h2, h3, h4 {
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
